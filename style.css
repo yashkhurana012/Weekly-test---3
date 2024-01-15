@@ -1,0 +1,166 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f1f1;
+    border-radius: 15px;
+    width: 647px;
+}
+body{
+    background-color: black;
+  
+}
+.img1{
+    height: 137px;
+    width: 225px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px 20px;
+    
+}
+#left{
+   
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.left>h1{
+   
+    
+}
+.cart1{
+    font-size: 30px;
+    text-align: center;
+
+}
+.heading{
+    text-align: center;
+}
+.box{
+    margin: 1rem 0px;
+
+}
+.box2>h1{
+    width: 400px;
+    
+}
+.box p{
+    
+}
+.box button{
+    border: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+.material-symbols-outlined{
+    font-size: 20px !important;
+    color: gray;
+    background-color: rgb(236 230 230);
+    
+
+}
+
+.price{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.quantity{
+    padding: 0px 10px;
+    font-size: 20px;
+}
+#right{
+  
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.rgh{
+    height: min-content;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 40%;
+    padding: 15px 10px;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+}
+.cart_box span{
+    font-size: 20px;
+    font-weight: 600;
+}
+#total1{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+
+}
+.div10{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px){
+    section{
+display: block;
+padding: 10px;
+    }
+    #left{
+        width: 100%;
+
+    }
+    .rgh{
+        margin-top: 2rem;
+        width: 100%;
+        padding: 10px 0px;
+
+    }
+    .box{
+        display: block;
+        width: 96%;
+    }
+    .box2>h1{
+        width: 80%;
+        font-size: 18px;
+    }
+    .box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .div10{
+        justify-content: center;
+    }
+    section{
+        padding: 30px 0px;
+   
+        background-color: black;
+    }
+
+    .cart_box{
+        display: block;
+        margin-left: 1rem;
+     
+    }
+    .cart_box p{
+
+    }
+    #right{
+        width: 100%;
+    }
+    #total1{
+        padding-left: 0px;
+        margin-left: 1rem;
+    }
+}
