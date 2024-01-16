@@ -4,9 +4,9 @@ let total1=document.getElementById("total1");
 
 const Products = [
 
-  { id: 1,img:"718UHZnqIiL._SX575_.jpg" ,name: "Nike Mens Air Zoom Pegasus", price:'8999', quantity: 0 },
-  { id: 2,img:"71YkKdI35wL._SX575_.jpg", name: "NIKE Mens Downshifter", price:"7999", quantity: 0 },
-  { id: 3,img:"81jJEiduEoL._SX575_png" ,name: "Nike Mens Air Zoom Pegasus", price: '1999', quantity: 0 }
+  { id: 1,img:"jorden_-removebg-preview.png" ,name: "Mens Jordan 1 Retro HighSneaker", price:'8994', quantity: 0 },
+  { id: 2,img:"watch-removebg-preview.png", name: "Daniel Klein Analog White Dial Men's Watch-DK11642-2", price:"2295", quantity: 0 },
+  { id: 3,img:"71TfWD6y4pL._SL1500_-removebg-preview.png" ,name: "LG Electronics 34Wq60C Curved Ultrawide Monitor", price: '34199', quantity: 0 }
 
 ];
     
